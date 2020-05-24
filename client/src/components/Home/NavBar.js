@@ -151,7 +151,7 @@ export default class NavBar extends Component {
         <Navbar bg="light" expand="lg">
           <Link to="/">
             <Navbar.Brand href="#home">
-              CSKPI <span className="logo-subhead">Fashion Store</span>
+              CSKP <span className="logo-subhead">Fashion Store</span>
             </Navbar.Brand>
           </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -174,7 +174,7 @@ export default class NavBar extends Component {
 
               <Nav.Link href="/delivery">Delivery</Nav.Link>
               <Nav.Link href="/sizeguide">Size Guide</Nav.Link>
-              <Nav.Link href="/about">About Us</Nav.Link>
+              <a href="/about">About Us</a>
               {this.displayHistory()}
             </Nav>
 
