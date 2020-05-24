@@ -192,7 +192,7 @@ export default class NavBar extends Component {
                 </NavDropdown>
               </Nav>
             ) : (
-                <Nav.Link href="/sign-in">
+                <Nav.Link href="https://shoppingstoreonline.herokuapp.com/sign-in">
                   <i class="fas fa-user mr-2" />{" "}
                   {this.state.user ? this.state.user.username : "Sign In"}
                 </Nav.Link>
