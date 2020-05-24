@@ -151,7 +151,7 @@ export default class NavBar extends Component {
         <Navbar bg="light" expand="lg">
           <Link to="/">
             <Navbar.Brand href="#home">
-              CSK <span className="logo-subhead">Fashion Store</span>
+              CSKPI <span className="logo-subhead">Fashion Store</span>
             </Navbar.Brand>
           </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
